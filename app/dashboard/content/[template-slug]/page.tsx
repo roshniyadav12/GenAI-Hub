@@ -53,16 +53,23 @@ function CreateNewContent() {
     //   console.log(result);
     // }
 
-    const SaveInDb=async(formData:any,slug:any,aiResp:string)=>{
-      const result=await db.insert(AIOutput).values({
-        formData:formData,
-        templateSlug:slug,
-        aiResponse:aiResp,
-        createdBy:user?.primaryEmailAddress?.emailAddress,
-        createdAt:moment().format('DD/MM/yyyy'),
+    const SaveInDb = async (formData: any, slug: any, aiResp: string) => {
+      const createdBy = user?.primaryEmailAddress?.emailAddress;
+    
+      if (!createdBy) {
+        throw new Error("User email is required to save to the database.");
+      }
+    
+      const result = await db.insert(AIOutput).values({
+        formData,
+        templateSlug: slug,
+        aiResponse: aiResp,
+        createdBy,
+        createdAt: moment().format('DD/MM/yyyy'),
       });
+    
       console.log(result);
-    }
+    };
   return (
     <div className='p-10  bg-white '>
       <Link href={"/dashboard"}>
