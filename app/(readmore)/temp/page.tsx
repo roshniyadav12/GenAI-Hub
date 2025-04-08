@@ -16,9 +16,9 @@ export default function Temp() {
           </button>
         </Link>
 
-        <h1 className="text-4xl font-bold mb-6 text-[#6D5BA8]">Explore All 25+ AI Templates</h1>
+        <h1 className="text-4xl font-bold mb-6 text-[#6D5BA8]">Explore All 15+ AI Templates</h1>
         <p className="text-lg text-gray-700 mb-10">
-          Our AI Content Generator App is loaded with over 25 powerful and intelligent templates tailored to meet
+          Our AI Content Generator App is loaded with over 15 powerful and intelligent templates tailored to meet
           your blogging, video, and social media needs. Whether you're looking to generate content, improve grammar,
           or optimize SEO — we’ve got you covered.
         </p>

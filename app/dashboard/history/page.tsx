@@ -9,6 +9,7 @@ type HistoryItem = {
   createdAt: string;
 };
 
+
 export default function History() {
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [expanded, setExpanded] = useState<{ [key: number]: boolean }>({});

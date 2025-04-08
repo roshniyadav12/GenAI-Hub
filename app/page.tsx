@@ -101,7 +101,7 @@ import {
 export default function Home() {
   const features = [
     {
-      title: "25+ Templates",
+      title: "15+ Templates",
       description: "Instantly generate content using clean and optimized templates.",
       icon: FileText,
       link: "/temp",

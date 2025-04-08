@@ -9,7 +9,7 @@ interface props {
 }
 
 function OutputSection({ aiOutput }: props) {
-  const editorRef: any = useRef();
+  const editorRef = useRef();
 
   useEffect(() => {
     const editorInstance = editorRef.current.getInstance();
