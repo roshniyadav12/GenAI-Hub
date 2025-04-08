@@ -20,7 +20,10 @@ export async function GET() {
 
     return NextResponse.json(data);
   } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    if (error instanceof Error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+    return NextResponse.json({ error: "Unknown error occurred" }, { status: 500 });
   }
 }
   
