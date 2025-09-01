@@ -23,7 +23,7 @@ export default  [
     },
     {
         name: 'Blog Content',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Generate high-quality, SEO-optimized blog content instantly to engage readers and grow your online presence.',
         category: 'blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/4905/4905454.png',
         slug: 'blog-content-generation',
@@ -44,7 +44,7 @@ export default  [
     },
     {
         name: 'Blog Topic Ideas',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Get unique and trending blog topic ideas instantly to spark creativity and drive more traffic to your site.',
         category: 'Blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/11497/11497847.png',
         slug: 'blog-topic-idea',
@@ -60,7 +60,7 @@ export default  [
     },
     {
         name: 'Youtube SEO Title',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Generate catchy and SEO-friendly YouTube titles to grab attention and boost your video rankings.',
         category: 'Youtube Tools',
         icon: 'https://cdn-icons-png.flaticon.com/128/402/402075.png',
         slug: 'youtube-seo-title',
@@ -83,7 +83,7 @@ export default  [
     {
 
         name: 'Youtube Description',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Create engaging and optimized YouTube descriptions instantly to attract viewers and improve your video’s SEO. ',
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111748.png',
         slug: 'youtube-description',
@@ -104,7 +104,7 @@ export default  [
     },
     {
         name: 'Youtube Tags',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Generate the best YouTube tags instantly to boost your video’s visibility, reach, and SEO.',
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/4674/4674918.png',
         slug: 'youtube-tag',
@@ -159,7 +159,7 @@ export default  [
     },
     {
         name: 'Add Emojis to Text',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Easily add emojis to your text to make it more fun and expressive.',
         icon: 'https://cdn-icons-png.flaticon.com/128/2584/2584606.png',
         category: 'blog',
         slug: 'add-emoji-to-text',
@@ -175,7 +175,7 @@ export default  [
     },
     {
         name: 'Instagram Post Generator',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Create captivating Instagram posts instantly with our AI-powered Post Generator – perfect captions, hashtags, and ideas in one click.',
         icon: 'https://cdn-icons-png.flaticon.com/128/15713/15713420.png',
         category: 'blog',
        
@@ -193,7 +193,7 @@ export default  [
     },
     {
         name: 'Instagram Hash Tag Generator',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'Generate the best Instagram hashtags instantly to boost your contents reach and engagement.',
         icon: 'https://cdn-icons-png.flaticon.com/128/7045/7045432.png',
         category: 'blog',
        
