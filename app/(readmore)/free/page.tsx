@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import { ArrowLeft } from 'lucide-react'
-import Link from 'next/link'
+import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
 export default function FreePage() {
   return (
@@ -15,35 +15,57 @@ export default function FreePage() {
           </button>
         </Link>
 
-        <h1 className="text-4xl font-bold mb-6 text-[#6D5BA8]">💸 Free to Use</h1>
+        <h1 className="text-4xl font-bold mb-6 text-[#6D5BA8]">
+          💸 Free to Use
+        </h1>
         <p className="text-lg text-gray-700 mb-10">
-          Our platform is 100% free and always will be. We believe in democratizing AI-powered content creation, so
-          everyone can create, share, and grow — without the burden of subscription costs.
+          Our platform is 100% free and always will be. We believe in
+          democratizing AI-powered content creation, so everyone can create,
+          share, and grow — without the burden of subscription costs.
         </p>
 
-        {/* 💡 Why Free? */}
+        {/*  Why Free? */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">💡 Why Free?</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">
+            💡 Why Free?
+          </h2>
           <p className="text-gray-800">
-            Our mission is to provide accessible tools for students, creators, marketers, and developers alike.
-            We’re focused on empowering innovation — not locking it behind a paywall.
+            Our mission is to provide accessible tools for students, creators,
+            marketers, and developers alike. We’re focused on empowering
+            innovation — not locking it behind a paywall.
           </p>
         </section>
 
-        {/* ✅ What You Get */}
+        {/* What You Get */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">✅ What You Get</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">
+            ✅ What You Get
+          </h2>
           <ul className="list-disc ml-6 text-gray-800 space-y-2">
-            <li><strong>Unlimited Access</strong> – Use all AI templates without restrictions.</li>
-            <li><strong>No Subscriptions</strong> – No sign-ups, trials, or payment info required.</li>
-            <li><strong>Instant Usage</strong> – Start generating content in seconds.</li>
-            <li><strong>No Ads or Distractions</strong> – Just a clean, focused user experience.</li>
+            <li>
+              <strong>Unlimited Access</strong> – Use all AI templates without
+              restrictions.
+            </li>
+            <li>
+              <strong>No Subscriptions</strong> – No sign-ups, trials, or
+              payment info required.
+            </li>
+            <li>
+              <strong>Instant Usage</strong> – Start generating content in
+              seconds.
+            </li>
+            <li>
+              <strong>No Ads or Distractions</strong> – Just a clean, focused
+              user experience.
+            </li>
           </ul>
         </section>
 
-        {/* 🎯 Who Is It For? */}
+        {/*  Who Is It For? */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">🎯 Who Is It For?</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">
+            🎯 Who Is It For?
+          </h2>
           <ul className="list-disc ml-6 text-gray-800 space-y-2">
             <li>📚 Students working on assignments and projects.</li>
             <li>💼 Freelancers and professionals building online presence.</li>
@@ -52,14 +74,18 @@ export default function FreePage() {
           </ul>
         </section>
 
-        {/* ❤️ Our Promise */}
+        {/*  Our Promise */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">❤️ Our Promise</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-[#5A4B91]">
+            ❤️ Our Promise
+          </h2>
           <p className="text-gray-800">
-            We’re here to support your growth and creativity. As we grow, our core tools will always remain free — with optional upgrades for power users in the future.
+            We’re here to support your growth and creativity. As we grow, our
+            core tools will always remain free — with optional upgrades for
+            power users in the future.
           </p>
         </section>
       </div>
     </main>
-  )
+  );
 }

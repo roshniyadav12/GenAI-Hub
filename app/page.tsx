@@ -1,91 +1,3 @@
-
-// import Image from "next/image";
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <h1>dtdddd</h1>
-//     </div>
-//   );
-// }
-// import Link from "next/link";
-// import Image from "next/image";
-
-// export default function Home() {
-//   const features = [
-//     {
-//       title: "25+ templates",
-//       description: "Responsive, and mobile-first project on the web",
-//       link: "/temp",
-//     },
-//     {
-//       title: "Customizable",
-//       description: "Components are easily customized and extendable",
-//       link: "/customizable",
-//     },
-//     {
-//       title: "Free to Use",
-//       description: "Every component and plugin is well documented",
-//       link: "/free",
-//     },
-//     {
-//       title: "24/7 Support",
-//       description: "Contact us 24 hours a day, 7 days a week",
-//       link: "/support",
-//     },
-//   ];
-
-//   return (
-//     <main className="min-h-screen bg-white text-gray-900">
-//       {/* Navbar */}
-//       <header className="flex justify-between items-center px-6 py-4 border-b">
-//         <div className="flex justify-center">
-//           <Image src="/logo.svg" alt="logo" width={60} height={60} />
-//         </div>
-//         <Link href="/sign-in?redirect_url=/dashboard">
-//   <button className="text-sm font-medium text-gray-700 hover:text-indigo-600">
-//     Get Started
-//   </button>
-// </Link>
-//       </header>
-
-//       {/* Hero Section */}
-//       <section className="text-center py-20 px-6 bg-gradient-to-b from-white to-gray-100">
-//         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-//           AI Content <span className="text-indigo-600">Generator</span>
-//         </h1>
-//         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-//           Revolutionize your content creation with our AI-powered app, delivering
-//           engaging and high-quality text in seconds.
-//         </p>
-//         <Link href="/sign-in?redirect_url=/dashboard">
-//   <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl text-lg font-semibold transition duration-300">
-//     Get started →
-//   </button>
-// </Link>
-
-//       </section>
-
-//       {/* Features Section */}
-//       <section className="py-16 px-6 bg-white">
-//         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
-//           {features.map((feature, index) => (
-//             <div
-//               key={index}
-//               className="bg-gray-100 rounded-2xl p-6 text-center shadow hover:shadow-lg transition"
-//             >
-//               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-//               <p className="text-gray-600">{feature.description}</p>
-//               <Link href={feature.link} className="text-indigo-600 mt-4 inline-block">
-//                 Learn more →
-//               </Link>
-//             </div>
-//           ))}
-//         </div>
-//       </section>
-//     </main>
-//   );
-// }
 "use client";
 
 import Link from "next/link";
@@ -102,13 +14,15 @@ export default function Home() {
   const features = [
     {
       title: "15+ Templates",
-      description: "Instantly generate content using clean and optimized templates.",
+      description:
+        "Instantly generate content using clean and optimized templates.",
       icon: FileText,
       link: "/temp",
     },
     {
       title: "Secure & Private",
-      description: "Your data stays encrypted and safe — we value your privacy.",
+      description:
+        "Your data stays encrypted and safe — we value your privacy.",
       icon: ShieldCheck,
       link: "/security",
     },
@@ -120,7 +34,8 @@ export default function Home() {
     },
     {
       title: "Smart Formatter",
-      description: "Effortlessly apply bold, italics, and formatting styles to your content.",
+      description:
+        "Effortlessly apply bold, italics, and formatting styles to your content.",
       icon: Sliders,
       link: "/formatter",
     },
@@ -149,7 +64,6 @@ export default function Home() {
         </Link>
       </header>
 
-      {/* Hero Section */}
       <section className="py-28 text-center relative overflow-hidden">
         <motion.div
           className="relative z-10 px-6"
@@ -158,11 +72,13 @@ export default function Home() {
           transition={{ duration: 0.7 }}
         >
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-[#2E2E3A]">
-            AI-Powered Content<br />
+            AI-Powered Content
+            <br />
             <span className="text-[#4B3F72]">That Works for You</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg text-[#4B3F72] mb-10">
-          Turn ideas into polished content fast — using intelligent templates that adapt to your goals.
+            Turn ideas into polished content fast — using intelligent templates
+            that adapt to your goals.
           </p>
           <Link href="/sign-in?redirect_url=/dashboard">
             <motion.button
@@ -206,10 +122,16 @@ export default function Home() {
                 viewport={{ once: true }}
               >
                 <Icon className="w-12 h-12 mx-auto mb-5 text-white" />
-                <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
-                <p className="text-[#ded8e0] text-sm mb-4">{feature.description}</p>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {feature.title}
+                </h3>
+                <p className="text-[#ded8e0] text-sm mb-4">
+                  {feature.description}
+                </p>
                 <Link href={feature.link}>
-                  <span className="text-[#e5e5e5] font-medium hover:underline transition">Learn more →</span>
+                  <span className="text-[#e5e5e5] font-medium hover:underline transition">
+                    Learn more →
+                  </span>
                 </Link>
               </motion.div>
             );

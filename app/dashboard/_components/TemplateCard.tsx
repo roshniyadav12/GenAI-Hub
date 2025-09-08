@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { TEMPLATE } from './TemplateListSection';
-import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import React from "react";
+import { TEMPLATE } from "./TemplateListSection";
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 function TemplateCard(item: TEMPLATE) {
   return (
@@ -13,7 +13,7 @@ function TemplateCard(item: TEMPLATE) {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.4, ease: 'easeOut' }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
         whileHover={{ scale: 1.03 }}
         className="bg-[#d2cff0] rounded-2xl shadow-md hover:shadow-xl  p-5 cursor-pointer group transition-all duration-300 max-w-sm mx-auto"
       >
@@ -38,7 +38,6 @@ function TemplateCard(item: TEMPLATE) {
         {/* Description */}
         <p className="text-gray-700 text-sm line-clamp-3">{item.desc}</p>
 
-        {/* Animated CTA on Hover */}
         <motion.div
           className="mt-5 text-sm text-purple-700 font-medium opacity-0 group-hover:opacity-100 transition"
           whileHover={{ x: 5 }}
