@@ -56,7 +56,6 @@ export default function History() {
               <th className="p-3 text-left">Template</th>
               <th className="p-3 text-left">Input</th>
               <th className="p-3 text-left">Response</th>
-              {/* <th className="p-3 text-left">Date</th>  */}
             </tr>
           </thead>
           <tbody>
